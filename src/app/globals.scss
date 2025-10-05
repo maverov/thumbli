@@ -1,0 +1,169 @@
+@use "./variables" as *;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-y: scroll; /* always show vertical scrollbar */
+}
+
+@supports (scrollbar-gutter: stable) {
+  html {
+    scrollbar-gutter: stable;
+  }
+}
+
+.mainContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: $primary-color;
+  font-family: $font-primary;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.actionLink {
+  display: inline-block;
+  background-color: $button-primary-color;
+  border: 3px solid #000;
+  padding: 0.8rem 2.2rem;
+  font-family: $font-primary;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 4px 5px 0 #000;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.actionLink:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 #000;
+}
+
+.buttonContainer {
+  width: min(1100px, 92vw);
+  margin-bottom: 2rem;
+}
+
+.card {
+  border: 4px solid #000;
+  box-shadow: 7px 6.5px 0 #000;
+  border-radius: 2px;
+  width: min(1100px, 92vw);
+  padding: 2.2rem;
+  text-align: left;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+
+  section {
+    h1, h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    &:first-of-type {
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.green {
+  background-color: $secondary-color;
+}
+
+.orange {
+  background-color: $button-primary-color;
+}
+
+.card h1 {
+  margin: 0 0 0.75rem;
+}
+
+.cardTitle {
+  margin: 0 0 0.75rem;
+}
+
+// Links styling
+.card a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// Lists styling
+.card ul,
+.card ol {
+  margin: 1rem 0 1rem 1.5rem;
+  line-height: 1.6;
+
+  li {
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.card ul {
+  list-style-type: disc;
+}
+
+.card ol {
+  list-style-type: decimal;
+}
+
+// Code/technical terms styling
+.card code {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95em;
+}
+
+// Paragraph spacing
+.card p {
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.blogPost {
+  width: min(1400px, 92vw);
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+.p2 {
+  padding: 2rem;
+}
+
+.p3 {
+  padding: 3rem;
+}
