@@ -91,7 +91,7 @@ export const blogposts: BlogPost[] = [
     <p>Thumbli automatically detects which type of Twitch link you’ve pasted — a live channel or a clip — and fetches the correct thumbnail for you.</p>
 
     <h2>Step 2: Paste the Link into Thumbli</h2>
-    <p>Go to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli.com</a>. You’ll see one simple input field. Paste your Twitch link there and wait a second — Thumbli instantly connects to Twitch’s public thumbnail service and shows you the available preview images.</p>
+    <p>Go to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">thumbli.net</a>. You’ll see one simple input field. Paste your Twitch link there and wait a second — Thumbli instantly connects to Twitch’s public thumbnail service and shows you the available preview images.</p>
 
     <p>For clips, you’ll usually get one static image — the official clip thumbnail. For live streams, the thumbnail updates automatically every few seconds to reflect what’s happening on the stream right now. That means you can grab a live preview at the perfect moment.</p>
 
@@ -147,7 +147,7 @@ export const blogposts: BlogPost[] = [
     <p>The part after <code>/video/</code> (in this example, <code>x7xyz12</code>) is your video ID — Thumbli automatically detects and uses this for fetching the correct thumbnail.</p>
 
     <h2>Step 2: Paste the Link into Thumbli</h2>
-    <p>Go to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli.com</a>. You’ll see a single input field on the main page. Paste your copied Dailymotion link into it and wait a second — Thumbli instantly fetches all available thumbnail versions for that video.</p>
+    <p>Go to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">thumbli.net</a>. You’ll see a single input field on the main page. Paste your copied Dailymotion link into it and wait a second — Thumbli instantly fetches all available thumbnail versions for that video.</p>
 
     <p>You’ll typically see a few different sizes: smaller previews, medium versions for embeds, and full HD thumbnails (when available). Hover over or click any of them to <strong>download the Dailymotion thumbnail</strong> directly to your device.</p>
 
@@ -202,7 +202,7 @@ export const blogposts: BlogPost[] = [
     <p>The unique code after <code>/video/</code> identifies the video — Thumbli uses this automatically to fetch the correct thumbnail from BitChute’s servers.</p>
 
     <h2>Step 2: Paste the Link into Thumbli</h2>
-    <p>Head over to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli.com</a> and paste the copied BitChute link into the input box. Within a second or two, you’ll see the video’s thumbnail appear, ready for download or preview.</p>
+    <p>Head over to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">thumbli.net</a> and paste the copied BitChute link into the input box. Within a second or two, you’ll see the video’s thumbnail appear, ready for download or preview.</p>
 
     <p>Unlike many other sites, BitChute usually provides a single thumbnail per video — the one that appears in search results and embeds. Thumbli automatically fetches this in its original size, so you don’t lose any quality.</p>
 
@@ -1113,7 +1113,7 @@ export const blogposts: BlogPost[] = [
     <p>That’s all you need — no need to log in, no YouTube Premium required, and no browser extensions.</p>
 
     <h2>Step 2: Paste It into Thumbli</h2>
-    <p>Next, head over to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli</a>. On the homepage, you’ll see a simple input box. Paste your copied link there, and Thumbli will automatically detect that it’s a YouTube Shorts URL.</p>
+    <p>Next, head over to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">Thumbli</a>. On the homepage, you’ll see a simple input box. Paste your copied link there, and Thumbli will automatically detect that it’s a YouTube Shorts URL.</p>
     <p>Within seconds, it’ll display all available thumbnail sizes — from small previews to full HD images. These are the exact same images YouTube uses internally (like <code>maxresdefault.jpg</code>), so you always get the real thing, not a blurry screenshot.</p>
 
     <h2>Step 3: Preview or Download the Thumbnail</h2>
@@ -1137,7 +1137,7 @@ export const blogposts: BlogPost[] = [
 
     <h2>Conclusion</h2>
     <p>Downloading YouTube Shorts thumbnails doesn’t have to be a hassle. With Thumbli, you can grab any thumbnail in full HD with just a pasted link — no YouTube Premium, no sign-up, and no shady sites. Try it once, and you’ll never need another downloader again.</p>
-    <p><strong>Ready to try it?</strong> Paste a YouTube Shorts link on <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli</a> and see the magic happen.</p>
+    <p><strong>Ready to try it?</strong> Paste a YouTube Shorts link on <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">Thumbli</a> and see the magic happen.</p>
   `,
 },
 {
@@ -1173,7 +1173,7 @@ export const blogposts: BlogPost[] = [
     <p>This URL contains everything needed to fetch the video’s details and thumbnail in full quality — no login or Premium plan necessary.</p>
 
     <h2>Step 2: Use Thumbli to Fetch the Thumbnail</h2>
-    <p>Go to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli.com</a>. Paste your link into the search box, and within seconds you’ll see every thumbnail version that YouTube provides — from tiny previews to crisp <strong>HD images without any watermark</strong>.</p>
+    <p>Go to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">thumbli.net</a>. Paste your link into the search box, and within seconds you’ll see every thumbnail version that YouTube provides — from tiny previews to crisp <strong>HD images without any watermark</strong>.</p>
     <p>Click any image to open it in a new tab and download it directly to your device. If you’d rather keep the link, just copy the image URL — perfect for embedding or referencing later.</p>
 
     <h2>Step 3: (Optional) Save the Full Short for Offline Viewing</h2>
@@ -1200,7 +1200,7 @@ export const blogposts: BlogPost[] = [
 
     <h2>Conclusion</h2>
     <p>Forget shady apps and slow downloaders. With Thumbli, you can get YouTube Shorts thumbnails — crisp, clean, and watermark-free — in seconds, right from your browser. No YouTube Premium, no sign-up, and no nonsense. Just copy, paste, and download.</p>
-    <p><strong>Try it now:</strong> Paste any YouTube Shorts link into <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli</a> and grab your clean HD image instantly.</p>
+    <p><strong>Try it now:</strong> Paste any YouTube Shorts link into <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">Thumbli</a> and grab your clean HD image instantly.</p>
   `,
 },
 {
@@ -1237,7 +1237,7 @@ export const blogposts: BlogPost[] = [
     <p>That’s your direct video URL — you’ll need it in the next step.</p>
 
     <h2>Step 2: Paste the Link into Thumbli</h2>
-    <p>Go to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli.com</a> in your browser (works on Chrome, Safari, or any modern mobile browser). Paste your link in the box and hit Enter. In a few seconds, you’ll see every available <strong>thumbnail size</strong> for that Short — from small previews to full HD images.</p>
+    <p>Go to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">thumbli.net</a> in your browser (works on Chrome, Safari, or any modern mobile browser). Paste your link in the box and hit Enter. In a few seconds, you’ll see every available <strong>thumbnail size</strong> for that Short — from small previews to full HD images.</p>
     <p>You can tap any image to open it in a new tab and long-press to save it to your gallery. That’s it — your thumbnail is now saved to your phone in crisp, high-resolution quality, no watermark, no tracking, no YouTube Premium required.</p>
 
     <h2>Step 3: (Optional) Save the Full Short Video</h2>
@@ -1269,7 +1269,7 @@ export const blogposts: BlogPost[] = [
 
     <h2>Conclusion</h2>
     <p>You don’t need apps, sign-ups, or YouTube Premium to save YouTube Shorts thumbnails to your phone. With <strong>Thumbli</strong>, it’s quick, free, and safe — whether you’re on Android or iPhone. Just copy, paste, and download your favorite Shorts thumbnail in seconds. 📱</p>
-    <p><strong>Try it now:</strong> Head to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli.com</a> and paste any Shorts link — it’s that easy.</p>
+    <p><strong>Try it now:</strong> Head to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">thumbli.net</a> and paste any Shorts link — it’s that easy.</p>
   `,
 },
 {
@@ -1305,7 +1305,7 @@ export const blogposts: BlogPost[] = [
     <p>That’s all you need to get started.</p>
 
     <h2>Step 2: Paste into Thumbli</h2>
-    <p>Go to <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli.com</a>. Paste your link into the search box and hit Enter. Within seconds, you’ll see a list of all available <strong>thumbnail sizes</strong> — from smaller previews to full HD images.</p>
+    <p>Go to <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">thumbli.net</a>. Paste your link into the search box and hit Enter. Within seconds, you’ll see a list of all available <strong>thumbnail sizes</strong> — from smaller previews to full HD images.</p>
     <p>Click any image to open it in a new tab. Then right-click (or long-press on mobile) and select “Save image as…” to download it directly. Done. No watermark, no pop-ups, and no YouTube Premium required.</p>
 
     <h2>Step 3: (Optional) Save the Full Video</h2>
@@ -1388,7 +1388,7 @@ export const blogposts: BlogPost[] = [
     <p>YouTube scales thumbnails dynamically depending on the device. On phones, you’ll often see them around 360×202 pixels; on desktop, they might appear closer to 480×270 pixels. As long as your source image is 1280×720, YouTube handles all the resizing for you automatically — no need to upload multiple versions.</p>
 
     <h2>Need to Grab an Existing Thumbnail?</h2>
-    <p>If you ever want to download the thumbnail from an existing video — whether for inspiration, analysis, or design study — you can easily do it with <a href="https://thumbli.com" target="_blank" rel="noopener noreferrer">Thumbli</a>. Just paste a YouTube link, and it will show every available size (<code>maxresdefault</code>, <code>hqdefault</code>, <code>mqdefault</code>, etc.) for preview or download. Perfect for studying what top creators do right.</p>
+    <p>If you ever want to download the thumbnail from an existing video — whether for inspiration, analysis, or design study — you can easily do it with <a href="https://thumbli.net" target="_blank" rel="noopener noreferrer">Thumbli</a>. Just paste a YouTube link, and it will show every available size (<code>maxresdefault</code>, <code>hqdefault</code>, <code>mqdefault</code>, etc.) for preview or download. Perfect for studying what top creators do right.</p>
 
     <h2>FAQ: Are YouTube Shorts Thumbnails the Same Size?</h2>
     <p>Almost! Shorts thumbnails follow the same 1280×720 base resolution but are displayed in a vertical crop since Shorts are portrait videos (9:16). You can design horizontally and let YouTube crop automatically, or manually create a portrait version for better control.</p>

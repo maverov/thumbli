@@ -7,7 +7,7 @@ export const metadata = {
   title: "Privacy Policy",
   description:
     "Thumbli respects your privacy. Learn how we handle data, cookies, and ads responsibly to keep your experience fast, safe, and transparent.",
-  alternates: { canonical: "https://thumbli.com/privacy" },
+  alternates: { canonical: "https://thumbli.net/privacy" },
 };
 
 export default function PrivacyPolicy() {

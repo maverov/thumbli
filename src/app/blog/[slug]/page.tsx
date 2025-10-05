@@ -14,7 +14,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
-  const url = `https://thumbli.com/blog/${post.slug}`;
+  const url = `https://thumbli.net/blog/${post.slug}`;
   return {
     title: `${post.title} – Thumbli`,
     description: post.description,
@@ -75,7 +75,7 @@ export default async function BlogPostPage({
               datePublished: post.date,
               dateModified: post.date,
               description: post.description,
-              mainEntityOfPage: `https://thumbli.com/blog/${post.slug}`,
+              mainEntityOfPage: `https://thumbli.net/blog/${post.slug}`,
               author: { "@type": "Person", name: post.author },
               publisher: { "@type": "Organization", name: "Thumbli" },
             }),

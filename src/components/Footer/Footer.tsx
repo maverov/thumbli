@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from 'react';
 
-const SITE_URL = 'https://thumbli.com';
+const SITE_URL = 'https://thumbli.net';
 const SHARE_MESSAGE = 'Just found Thumbli - grab video thumbnails from YouTube, Twitch & more in seconds! 🚀';
 
 const Footer = () => {

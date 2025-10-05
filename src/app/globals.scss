@@ -8,7 +8,10 @@
 
 html {
   overflow-y: scroll; /* always show vertical scrollbar */
+  font-size: 14px;
 }
+
+body { font-size: 1rem; line-height: 1.6; -webkit-text-size-adjust: 100%; }
 
 @supports (scrollbar-gutter: stable) {
   html {

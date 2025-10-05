@@ -6,7 +6,7 @@ export const metadata = {
   title: "Blog",
   description:
     "Explore the Thumbli Blog — tutorials, guides, and insights on getting YouTube, Twitch, Dailymotion, and Rumble thumbnails efficiently.",
-  alternates: { canonical: "https://thumbli.com/blog" },
+  alternates: { canonical: "https://thumbli.net/blog" },
 };
 
 export default function BlogIndexPage() {

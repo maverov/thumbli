@@ -8,7 +8,7 @@ export const metadata = {
   title: "About",
   description:
     "Learn about Thumbli — a free online tool to get YouTube, Twitch, and Dailymotion thumbnails easily. Created by Hristiyan from Bulgaria, built for simplicity, privacy, and speed.",
-  alternates: { canonical: "https://thumbli.com/about" },
+  alternates: { canonical: "https://thumbli.net/about" },
 };
 
 export default function AboutPage() {

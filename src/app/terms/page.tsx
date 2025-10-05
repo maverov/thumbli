@@ -6,7 +6,7 @@ export const metadata = {
   title: "Terms of Service",
   description:
     "Read Thumbli’s Terms of Service to understand your rights and responsibilities when using our free video thumbnail downloader.",
-  alternates: { canonical: "https://thumbli.com/terms-of-service" },
+  alternates: { canonical: "https://thumbli.net/terms-of-service" },
 };
 
 export default function TermsOfService() {

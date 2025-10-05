@@ -6,7 +6,7 @@ export const metadata = {
   title: "Disclaimers",
   description:
     "Disclaimer for Thumbli — information provided is for general use only. Learn about our limitations, affiliate notices, and content responsibilities.",
-  alternates: { canonical: "https://thumbli.com/disclaimer" },
+  alternates: { canonical: "https://thumbli.net/disclaimer" },
 };
 
 export default function Disclaimer() {
@@ -38,8 +38,8 @@ export default function Disclaimer() {
         <p>
           The information provided by <strong>Thumbli</strong> (“we,” “us,” or
           “our”) on{" "}
-          <Link href="https://thumbli.com" target="_blank" rel="noopener noreferrer">
-            thumbli.com
+          <Link href="https://thumbli.net" target="_blank" rel="noopener noreferrer">
+            thumbli.net
           </Link>{" "}
           (the “Site”) is for general informational purposes only. All
           information on the Site is provided in good faith, however, we make no

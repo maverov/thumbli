@@ -6,7 +6,7 @@ export const metadata = {
   title: "Contact Us",
   description:
     "Get in touch with the Thumbli team! Reach out with feature requests, feedback, or bug reports at setupsheaventeam@gmail.com.",
-  alternates: { canonical: "https://thumbli.com/contact" },
+  alternates: { canonical: "https://thumbli.net/contact" },
 };
 
 export default function ContactPage() {

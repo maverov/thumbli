@@ -18,12 +18,12 @@
 .heroSection {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  max-width: min(960px, 92vw);
+  max-width: min(930px, 92vw);
   width: 100%;
   padding: 2rem 0rem;
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 4rem;
     color: #000;
@@ -41,7 +41,7 @@
   li {
     position: relative;
     padding: 1rem 1rem 1.5rem 5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.2;
     text-align: left;
 
@@ -59,7 +59,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 800;
       color: #000;
     }
@@ -85,7 +85,7 @@
   border: 4px solid #000;
   box-shadow: 7px 6.5px 0 #000;
   border-radius: 2px;
-  width: min(960px, 92vw);
+  width: min(930px, 92vw);
   padding: 2rem;
   text-align: left;
 }
@@ -125,7 +125,7 @@
   padding: 0.6rem 0.7rem;
   border: 2px solid #000;
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .helpText {
@@ -166,14 +166,10 @@
   display: block;
   margin-top: 0.5rem;
   color: #dc2626;
-  font-size: 1.275rem;
   font-weight: 500;
 }
 
-
-
-
-
+// Thumbnails Grid
 .thumbnailGrid {
   display: flex;
   flex-wrap: wrap;
@@ -219,7 +215,7 @@
 
 .thumbnailSize {
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: #000;
 }
 
