@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar } from "@/components/Navbar";
 import Footer from "@/components/Footer/Footer";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 import "./globals.scss";
-
-import GoogleAnalytics from "@/components/GoogleAnalytics";
-import AnalyticsTracker from "@/components/AnalyticsTracker";
 
 export const metadata: Metadata = {
   title: {
@@ -38,11 +36,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <AnalyticsTracker />
         {children}
         <Footer />
         <ScrollToTopButton />
-        <GoogleAnalytics />
+
+         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID ?? "G-9KHW76JQCJ"} />
       </body>
     </html>
   );
