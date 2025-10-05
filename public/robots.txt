@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /404
+
+# Host
+Host: https://thumbli.net
+
+# Sitemaps
+Sitemap: https://thumbli.net/sitemap.xml
