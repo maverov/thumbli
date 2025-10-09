@@ -161,15 +161,31 @@ export const ThumbnailWorkbench = () => {
         <h2 id="url-title" className={styles.cardTitle}>Paste your video link 👇</h2>
 
         <div className={styles.inlineRow}>
-          <input
-            id="video-url"
-            type="url"
-            className={styles.input}
-            placeholder="https://www.youtube.com/watch?v=..."
-            aria-describedby="url-help"
-            value={videoUrl}
-            onChange={handleUrlChange}
-          />
+          <div className={styles.inputWrapper}>
+            <input
+              id="video-url"
+              type="url"
+              className={styles.input}
+              placeholder="https://www.youtube.com/watch?v=..."
+              aria-describedby="url-help"
+              value={videoUrl}
+              onChange={handleUrlChange}
+            />
+            {videoUrl && (
+              <button
+                className={styles.clearBtn}
+                onClick={() => {
+                  setVideoUrl('');
+                  setThumbnails([]);
+                  setLoadedThumbnails(new Set());
+                  setError('');
+                }}
+                aria-label="Clear input"
+              >
+                ❌ Clear
+              </button>
+            )}
+          </div>
         </div>
         {error && (
           <span className={styles.errorText}>

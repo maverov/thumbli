@@ -119,13 +119,44 @@
   font-weight: 700;
 }
 
-.input {
+.inputWrapper {
+  position: relative;
   flex: 1 1 auto;
   min-width: 260px;
-  padding: 0.6rem 0.7rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem 5rem 0.6rem 0.7rem; // Added right padding for the button
   border: 2px solid #000;
   border-radius: 4px;
   font-size: 1.1rem;
+}
+
+.clearBtn {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+  
+  &:hover {
+    color: #333;
+  }
+}
+
+@media (max-width: 640px) {
+  .inputWrapper {
+    flex-basis: 100%;
+    min-width: 0;
+  }
 }
 
 .helpText {
