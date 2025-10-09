@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from "react";
 import styles from "./FAQs.module.scss";
 import { faqs } from "@/data/faqs";
