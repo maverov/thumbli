@@ -21,6 +21,9 @@ export const Navbar = () => {
             <Link href="/about" className={styles.actionLink}>About</Link>
           </li>
           <li>
+            <Link href="/tools" className={styles.actionLink}>Other Tools</Link>
+          </li>
+          <li>
             <Link
               href="https://buymeacoffee.com/hrisko"
               target="_blank"

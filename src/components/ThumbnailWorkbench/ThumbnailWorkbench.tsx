@@ -262,7 +262,7 @@ export const ThumbnailWorkbench = () => {
         </>
       )}
 
-      <div className={`${styles.card} ${styles.green} ${styles.mt2}`}>
+      <div className={`${styles.card} ${styles.green}`}>
         <FAQs limit={25} />
       </div>
 

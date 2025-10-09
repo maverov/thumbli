@@ -16,9 +16,8 @@ export const faqs: FAQItem[] = [
   {
     id: 1212,
     question: "How does it work?",
-    answer: `It’s super simple! 💡
-  Just paste a full video URL — for example a YouTube, Twitch, or Dailymotion link — and Thumbli instantly detects the platform, fetches the available thumbnails, and shows them in every size and quality. 🖼️
-  From there, you can preview, download, or copy the link for any thumbnail you like — it’s the easiest way to get or grab video thumbnails online. 🚀
+    answer: `It’s super simple! Just paste a full video URL — for example a YouTube, Twitch, or Dailymotion link — and Thumbli instantly detects the platform, fetches the available thumbnails, and shows them in every size and quality. 🖼️
+  From there, you can preview, download, or copy the link for any thumbnail you like — it’s the easiest way to get or grab video thumbnails online. 
 
   Example: https://www.youtube.com/watch?v=dQw4w9WgXcQ`
   },
