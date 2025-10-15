@@ -78,7 +78,6 @@
     }
   }
 }
-
 }
 
 .card {
@@ -190,8 +189,6 @@
   display: block;
 }
 
-
-
 // Error Handling
 .errorText {
   display: block;
@@ -210,6 +207,7 @@
   width: 100%;
   align-items: flex-end;
   max-width: 1500px;
+  margin-bottom: 2rem;
 }
 
 .thumbnailWrapper {

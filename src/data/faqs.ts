@@ -156,7 +156,12 @@ Example: https://rumble.com/v4abcd1-video-title.html`
     answer: `Try opening the thumbnail in a new tab (sometimes previews are cached or blocked). You can also click “Download All” and we’ll retry.`
   },
   {
-    id: 21,
+  id: 21,
+    question: "How do I copy a YouTube link from the YouTube mobile app?",
+    answer: `Open the video in the YouTube app → tap Share → select “Copy link”.`
+  },
+  {
+    id: 22,
     question: "Can I share feedback or suggest new features?",
     answer: `We’d love that! Visit our Contact page to share ideas, report bugs, or just say hi. 💌`
   }

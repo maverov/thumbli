@@ -70,21 +70,6 @@ export default function AboutPage() {
             <Link href="/privacy">Privacy Policy</Link> for details.
           </p>
         </section>
-
-        <section aria-labelledby="creator-title">
-          <h2 id="creator-title">About the Creator</h2>
-          <p>
-            Hi! I’m <strong>Hristiyan</strong>, a software engineer from Bulgaria who loves building
-            software tools with great user experience. I enjoy meeting new people — feel free to connect on{" "}
-            <Link href="https://linkedin.com/in/maverov" target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </Link>.
-          </p>
-          <p>
-            Thumbli started as a free way to get YouTube and video thumbnails without spammy pop-ups or fake download
-            buttons — and that’s still the vibe.
-          </p>
-        </section>
       </section>
       <section className={`card orange`}>
         <section aria-labelledby="ads-title">
