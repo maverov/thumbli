@@ -74,6 +74,7 @@ export const metadata: Metadata = {
     },
   },
   other: {
+    "google-adsense-account": "ca-pub-7603862946328325",
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "default",
@@ -100,7 +101,7 @@ export default function RootLayout({
         <Footer />
         <ScrollToTopButton />
 
-         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID ?? "G-9KHW76JQCJ"} />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID ?? "G-9KHW76JQCJ"} />
       </body>
     </html>
   );
