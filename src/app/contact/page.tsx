@@ -24,10 +24,10 @@ export default function ContactPage() {
         <p>
           Just drop us an email at{" "}
           <a
-            href="mailto:setupsheaventeam@gmail.com"
+            href="mailto:maverov.digital@gmail.com"
             style={{ fontWeight: "600", textDecoration: "underline" }}
           >
-            setupsheaventeam@gmail.com
+            maverov.digital@gmail.com
           </a>{" "}
           — we read every message and usually reply within a day or two. ✉️
         </p>

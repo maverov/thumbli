@@ -169,7 +169,7 @@ const BulkThumbnailDownloader = () => {
   const detectedUrls = parseUrls(urls);
 
   return (
-    <section className={`${styles.workbench} ${styles.mainContainer}`} aria-labelledby="bulk-title">
+    <main className={`${styles.workbench}`} aria-labelledby="bulk-title">
       <section className="buttonContainer">
         <BackButton>Back</BackButton>
       </section>
@@ -276,7 +276,7 @@ const BulkThumbnailDownloader = () => {
       <div className={`${styles.card} ${styles.green} ${styles.mt2}`}>
         <FAQs limit={25} />
       </div>
-    </section>
+    </main>
   );
 };
 
