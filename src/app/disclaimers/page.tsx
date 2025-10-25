@@ -27,8 +27,8 @@ export default function Disclaimer() {
             Based in Sofia, Bulgaria
             <br />
             Contact Email:{" "}
-            <a href="mailto:setupsheaventeam@gmail.com">
-              setupsheaventeam@gmail.com
+            <a href="mailto:maverov.digital@gmail.com">
+              maverov.digital@gmail.com
             </a>
           </p>
           <p className="important">Last updated: October 5, 2025</p>

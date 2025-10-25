@@ -104,8 +104,8 @@ export default function PrivacyPolicy() {
         <ul>
           <li>
             Email:{" "}
-            <a href="mailto:setupsheaventeam@gmail.com" rel="noopener noreferrer">
-              setupsheaventeam@gmail.com
+            <a href="mailto:maverov.digital@gmail.com" rel="noopener noreferrer">
+              maverov.digital@gmail.com
             </a>
           </li>
           <li>

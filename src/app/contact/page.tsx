@@ -5,7 +5,7 @@ import BackButton from "@/components/BackButton";
 export const metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with the Thumbli team! Reach out with feature requests, feedback, or bug reports at setupsheaventeam@gmail.com.",
+    "Get in touch with the Thumbli team! Reach out with feature requests, feedback, or bug reports at maverov.digital@gmail.com.",
   alternates: { canonical: "https://thumbli.net/contact" },
 };
 
