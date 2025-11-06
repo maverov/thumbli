@@ -2,6 +2,8 @@ import Link from "next/link";
 import BackButton from "@/components/BackButton";
 import { getAllPosts } from "@/data/blogposts";
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: "Blog",
   description:
