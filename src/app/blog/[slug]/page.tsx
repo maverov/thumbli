@@ -7,10 +7,6 @@ import styles from "./BlogPost.module.scss";
 
 export const runtime = 'edge';
 
-export function generateStaticParams() {
-  return getAllPosts().map((p) => ({ slug: p.slug }));
-}
-
 export async function generateMetadata({
   params,
 }: {
