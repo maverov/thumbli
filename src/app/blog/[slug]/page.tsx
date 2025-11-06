@@ -5,6 +5,8 @@ import { getAllPosts, getPostBySlug } from "@/data/blogposts";
 import type { Metadata } from "next";
 import styles from "./BlogPost.module.scss";
 
+export const runtime = 'edge';
+
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
 }
