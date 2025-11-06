@@ -1,10 +1,21 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import styles from "./Navbar.module.scss";
 import Image from "next/image";
 
 export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className={styles.navbar} aria-label="Primary">
       <div className={styles.navbarContent}>
@@ -16,12 +27,32 @@ export const Navbar = () => {
           Thumbli
         </Link>
 
-        <ul className={styles.actions}>
+        <button
+          className={styles.hamburger}
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+          aria-expanded={isMenuOpen}
+        >
+          <span className={`${styles.hamburgerLine} ${isMenuOpen ? styles.open : ''}`}></span>
+          <span className={`${styles.hamburgerLine} ${isMenuOpen ? styles.open : ''}`}></span>
+          <span className={`${styles.hamburgerLine} ${isMenuOpen ? styles.open : ''}`}></span>
+        </button>
+
+        <ul className={`${styles.actions} ${isMenuOpen ? styles.open : ''}`}>
           <li>
-            <Link href="/about" className={styles.actionLink}>About</Link>
+            <Link href="/about" className={styles.actionLink} onClick={closeMenu}>
+              About
+            </Link>
           </li>
           <li>
-            <Link href="/tools" className={styles.actionLink}>Other Tools</Link>
+            <Link href="/blog" className={styles.actionLink} onClick={closeMenu}>
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link href="/tools" className={styles.actionLink} onClick={closeMenu}>
+              Other Tools
+            </Link>
           </li>
           <li>
             <Link
@@ -29,6 +60,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               className={styles.actionLink}
+              onClick={closeMenu}
             >
               <Image
                 src="/bmac.svg"
@@ -42,7 +74,6 @@ export const Navbar = () => {
           </li>
         </ul>
       </div>
-
     </nav>
   );
 };

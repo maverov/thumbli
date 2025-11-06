@@ -1,11 +1,10 @@
 @use "../../app/variables" as *;
 
 .navbar {
-  // position: ;   /* keeps it visible on scroll */
+  position: sticky;
   top: 0;
   z-index: 50;
   display: flex;
-  // background: $secondary-color;
   background: #fff;
   border-bottom: 5px solid #000;
 }
@@ -19,6 +18,7 @@
   max-width: $max-width;
   margin: 0 auto;
   padding: 0 2rem;
+  position: relative;
 }
 
 .logo {
@@ -27,6 +27,37 @@
   font-weight: bold;
   font-size: 2rem;
   color: #000;
+  z-index: 51;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 51;
+}
+
+.hamburgerLine {
+  width: 28px;
+  height: 3px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.hamburger .hamburgerLine:nth-child(1).open {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger .hamburgerLine:nth-child(2).open {
+  opacity: 0;
+}
+
+.hamburger .hamburgerLine:nth-child(3).open {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .actions {
@@ -39,7 +70,9 @@
 }
 
 .actionLink {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: $button-primary-color;
   border: 3px solid #000;
   padding: 0.8rem 2.2rem;
@@ -52,6 +85,7 @@
   box-shadow: 4px 5px 0 #000;
   transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
+
 .actionLink:hover {
   transform: translate(-2px, -2px);
   box-shadow: 7px 7px 0 #000;
@@ -63,44 +97,78 @@
   border-bottom: 2px solid #000;
 }
 
-/* Tablet */
+/* Tablet and Mobile */
 @media (max-width: 768px) {
   .navbarContent {
-    flex-direction: column;
-    gap: 1.5rem;
-    padding: 1.5rem 1.5rem 0;
+    min-height: 80px;
+    padding: 1rem 1.5rem;
   }
 
-  .logo { font-size: 1.4rem; }
+  .logo {
+    font-size: 1.6rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 
   .actions {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
     flex-direction: column;
-    gap: 1rem;
+    justify-content: flex-start;
+    padding: 100px 2rem 2rem;
+    gap: 1.2rem;
+    background: #fff;
+    border-left: 5px solid #000;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+  }
+
+  .actions.open {
+    right: 0;
+  }
+
+  .actions li {
     width: 100%;
-    max-width: 300px;
-    margin-bottom: 20px;
   }
 
   .actionLink {
     width: 100%;
     text-align: center;
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 }
 
-/* Mobile */
+/* Small Mobile */
 @media (max-width: 480px) {
-  .navbarContent { gap: 1.2rem; padding: 1.2rem 1rem 0; }
-  .logo { font-size: 1.2rem; }
+  .navbarContent {
+    padding: 1rem;
+    min-height: 70px;
+  }
 
-  .actions { gap: 0.8rem; max-width: 250px; }
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .actions {
+    width: 260px;
+    padding: 90px 1.5rem 2rem;
+    gap: 1rem;
+  }
 
   .actionLink {
-    padding: 0.7rem 1.2rem;
+    padding: 0.85rem 1.2rem;
     font-size: 0.95rem;
     box-shadow: 3px 4px 0 #000;
   }
+
   .actionLink:hover {
+    transform: translate(-1px, -1px);
     box-shadow: 5px 5px 0 #000;
   }
 }
