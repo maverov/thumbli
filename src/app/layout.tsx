@@ -89,35 +89,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Ezoic Privacy Scripts - MUST load first */}
-      <Script
-        src="https://cmp.gatekeeperconsent.com/min.js"
-        data-cfasync="false"
-        strategy="beforeInteractive"
-      />
-      <Script
-        src="https://the.gatekeeperconsent.com/cmp.min.js"
-        data-cfasync="false"
-        strategy="beforeInteractive"
-      />
-
-      {/* Ezoic Header Script */}
-      <Script
-        async
-        src="//www.ezojs.com/ezoic/sa.min.js"
-        strategy="beforeInteractive"
-      />
-      <Script
-        id="ezoic-init"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.ezstandalone = window.ezstandalone || {};
-            ezstandalone.cmd = ezstandalone.cmd || [];
-          `,
-        }}
-      />
-      
       <Script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7603862946328325"
