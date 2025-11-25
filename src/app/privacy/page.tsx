@@ -23,6 +23,8 @@ export default function PrivacyPolicy() {
           <strong>Effective date:</strong> October 5, 2025
         </p>
 
+        <span id="ezoic-privacy-policy-embed"></span>
+
         <p>
           At <strong>Thumbli</strong>, your privacy matters. This policy explains what information we do (and don’t)
           collect, how ads work on this site, and how you can control your data.
